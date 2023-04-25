@@ -1,0 +1,78 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgba(255, 255, 255, 0.896);
+  color: black;
+  margin: 5;
+  padding: 5;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color:#ffc107;
+}
+
+td, th {
+  border: 2px solid rgba(221, 221, 221, 0.337);
+  padding: 9px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+tr td{
+  color:black;
+}
+tr th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  background-color: #ffc107;
+  color: rgb(30, 26, 26);
+}
+
+input, button{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(8, 7, 7);
+}
+
+li {
+  float: right;
+}
+
+li .nav-link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li .nav-link:hover {
+  background-color: rgb(39, 38, 38);
+} 
+.fade.modal.show{
+    position: absolute;
+    margin-bottom: 500px;
+    color: red;
+}
